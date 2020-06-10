@@ -1,7 +1,7 @@
 # テキストファイル読み込み
 f = open('../token.txt', 'r')
 token = f.read()
-# print(token)
+print(token)
 
 # トークン
 API_TOKEN = token
